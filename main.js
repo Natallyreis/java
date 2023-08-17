@@ -1,23 +1,25 @@
-let operacao = prompt("Inorme a operação desejada: ")
+//declaração de variaveis 
+let operação = prompt("Informe a operação desejada: ")
 let numero1 = Number(prompt("Informe o primeiro número: "))
 let numero2 = Number(prompt("Informe o segundo número: "))
 
-if (operacao == "+"){
+//verificar a operação matemática selecionada
+if (operação == "+") {
     let resultado = numero1 + numero2
-    document.write("O resultado da soma é " + resultado + ".")
+    // prompt ("O resultado da soma é " + resultado + ".")
+    document.write('O resultado da soma é ' + resultado + '!');
 }
-else if (operacao == "-"){
+if (operação == "-") {
     let resultado = numero1 - numero2
-    document.write("O resultado da subtração é " + resultado + ".")
-}
-else if (operacao == "*"){
+    // console.log ("O resultado da subtração é " + resultado + ".")
+    document.write('O resultado da subtração é ' + resultado + '!');
+}if (operação == "*") {
     let resultado = numero1 * numero2
-    document.write("O resultado da multiplicação é " + resultado + ".")
-}
-else if (operacao == "/"){
+    // console.log ("O resultado da multiplicação é " + resultado + ".")
+    document.write('O resultado da multiplicação é ' + resultado + '!');
+}if (operação == "/") {
     let resultado = numero1 / numero2
-    document.write("O resultado da divisão é " + resultado + ".")
-} else{
-    document.write("OPERAÇÃO INCORRETA")
+    // console.log ("O resultado da divisão é " + resultado + ".")
+    document.write('O resultado da divisão é ' + resultado + '!');
 }
 
